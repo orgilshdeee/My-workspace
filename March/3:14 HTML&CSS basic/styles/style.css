@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "newFont";
+  src: url("../fonts/BebasNeue-Regular.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+  color: rgb(165, 6, 165);
+  font-family: newFont;
+  text-decoration: none;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+ul li {
+  list-style: none;
+}
+ul li button {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(241, 193, 102);
+  border-radius: 5px;
+  margin: 30px;
+  text-transform: capitalize;
+}
+
+header {
+  text-align: center;
+  background-color: pink;
+}
+footer {
+  background-color: pink;
+}
+body {
+  margin: 0;
+  background-image: url(https://cdn.dribbble.com/users/2925801/screenshots/14267264/urban_city_-_background_for_video_conferencing_1_4x.jpg);
+}
+h2 {
+  border: solid 1px;
+  padding: 30px;
+}
+img {
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+}
+@media (max-width: 700px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  img {
+    width: 98%;
+    height: 50%;
+    border: brown solid 5%;
+    padding: 10%;
+  }
+  ul li {
+    margin: 10px;
+  }
+}
+@media (max-width: 905px) {
+  ul li {
+    margin: 6px;
+  }
+}
+.menu-items {
+  display: flex;
+}
+#search {
+  width: 80%;
+  margin: auto;
+  height: 30px;
+  border-radius: 5px;
+  background: url(https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png)
+    no-repeat right center;
+  background-size: 25px;
+}
+
+h2 {
+  backdrop-filter: invert(0.7);
+}
+
+#search :hover {
+  backdrop-filter: blur(4px);
+}
+.dropDownContent {
+  display: none;
+}

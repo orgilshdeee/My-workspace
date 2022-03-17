@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/github.svg" />
+    <title>css</title>
+  </head>
+  <header></header>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <h1 class="header" id="testTitle">This is Test Resume</h1>
+    <div id="twoSides">
+      <!-- Left Side -->
+      <div id="leftSide">
+        <img src="./images/dog1.jpeg" alt="dog" id="dog-image" />
+
+        <div style="list-style: none; font-size: small; margin: 20px 0px">
+          <h2>Contact</h2>
+          <hr />
+          <li style="margin-bottom: 10px">12 Street City/Country</li>
+          <li style="margin-bottom: 10px">00 999 123 456 789</li>
+          <li style="margin-bottom: 10px">info@yourname.com</li>
+          <li>www.domainname.com</li>
+        </div>
+
+        <div style="list-style: none; font-size: small; margin: 20px 0px">
+          <h2>Education</h2>
+          <hr />
+          <li style="margin-bottom: 10px">Lorem ipsum dolor sit amet.</li>
+          <li style="margin-bottom: 10px">Lorem ipsum dolor sit amet.</li>
+          <li style="margin-bottom: 10px">Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </div>
+
+        <div style="list-style: none; font-size: small; margin: 20px 0px">
+          <h2>Skills</h2>
+          <hr />
+          <li style="margin-bottom: 10px">Lorem ipsum dolor sit amet.</li>
+          <li style="margin-bottom: 10px">Lorem ipsum dolor sit amet.</li>
+          <li style="margin-bottom: 10px">Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <div id="rightSide">
+        <h1>MIKE RICHRD</h1>
+        <p id="under">PROFESSIONAL TITLE</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+          asperiores eos numquam quo! Quia, veritatis fuga perspiciatis ut
+          debitis ducimus nesciunt! Provident ipsa excepturi aut voluptate
+          dolorem fuga at, ut iste a omnis error suscipit, laborum, totam quos
+          odio expedita necessitatibus quia amet soluta. Voluptate minima
+          ducimus expedita natus dicta!
+        </p>
+
+        <h2>WORK EXPERIENCE</h2>
+        <hr class="rightHR" />
+        <div style="margin-left: 30px">
+          <h3 style="font-size: large">AB Development/Your Job Position</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos,
+            pariatur dolores perspiciatis minima unde totam aliquid laudantium,
+            excepturi velit facilis incidunt. Dicta officiis voluptatem saepe
+            distinctio? Odit, atque sapiente. Vel.
+          </p>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </div>
+        <div style="margin-left: 30px">
+          <h3 style="font-size: large">AB Development/Your Job Position</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos,
+            pariatur dolores perspiciatis minima unde totam aliquid laudantium,
+            excepturi velit facilis incidunt. Dicta officiis voluptatem saepe
+            distinctio? Odit, atque sapiente. Vel.
+          </p>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </div>
+        <div style="margin-left: 30px">
+          <h3 style="font-size: large">AB Development/Your Job Position</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos,
+            pariatur dolores perspiciatis minima unde totam aliquid laudantium,
+            excepturi velit facilis incidunt. Dicta officiis voluptatem saepe
+            distinctio? Odit, atque sapiente. Vel.
+          </p>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

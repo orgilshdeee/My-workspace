@@ -1,0 +1,37 @@
+body {
+  background-color: coral;
+}
+header .img {
+  border-radius: 50%;
+  width: 20%;
+}
+.sec h2 {
+  color: rgb(121, 76, 22);
+  text-align: center;
+}
+.sec p {
+  background-color: gray;
+  padding: 10px 20px 30px 40px;
+}
+header {
+  padding: 20px 40px;
+  text-align: center;
+}
+header ul li {
+  list-style: none;
+}
+header ul {
+  display: flex;
+}
+main {
+  display: flex;
+}
+.card {
+  height: 30vh;
+  width: 30%;
+  margin: 10px 5px;
+  display: block;
+}
+.card img {
+  width: 100%;
+}

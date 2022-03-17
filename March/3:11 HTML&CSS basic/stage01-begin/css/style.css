@@ -1,0 +1,86 @@
+/* Web Fonts ----------------------- */
+@font-face {
+  font-family: "headerFormatter";
+  src: url("../fonts/SyneMono-Regular.woff") format("woff");
+}
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.25em; /* 20px on most screens */
+}
+h1 {
+  font-family: headerFormatter;
+}
+h2 {
+  font-family: headerFormatter;
+}
+img {
+  width: 100%; /* responsive images */
+}
+#fontTest {
+  font-family: headerFormatter;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  color: #454959;
+  font-weight: 300;
+  /* background-image: url("/img/download.jpeg"), url(../img/mountains.jpg);
+  background-repeat: repeat, no-repeat;
+  background-position: center bottom, center top;
+  background-size: 50%, 100%;
+  height: 300vh; */
+}
+header {
+  text-align: center;
+  text-shadow: -2px -5px 5px rgba(121, 71, 71),
+    2px 5px 5px rgb(121, 71, 71, 0.5);
+}
+header,
+footer {
+  text-align: center;
+}
+header {
+  background-color: aquamarine;
+  color: rgb(156, 91, 102);
+}
+main {
+  hyphens: auto;
+}
+
+#bg-image {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/bear.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: blur(8px);
+}
+#wildlife {
+  position: absolute;
+  top: 300px;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  /* color: white; */
+}
+#wildlife:hover {
+  box-shadow: 10px 10px 10px rgba(47, 35, 102, 0.2);
+  transition: box-shadow 1s;
+}
+h1,
+h2 {
+  text-shadow: -2px 5px 5px rgba(121, 71, 71);
+}
+footer p:before {
+  content: "\00A9";
+}
+/* Main Styles --------------------- */
+
+/* Media Queries ------------------- */

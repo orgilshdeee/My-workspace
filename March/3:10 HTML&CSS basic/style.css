@@ -1,0 +1,93 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  left: 45px;
+  margin-top: 45px;
+}
+* {
+  box-sizing: border-box;
+}
+
+#twoSides {
+  display: flex;
+}
+#leftSide {
+  top: 20px;
+  width: 20vw;
+  background-color: rgb(73, 73, 131);
+  height: auto;
+  display: inline-block;
+  padding-left: 60px;
+}
+#rightSide {
+  top: 20px;
+  width: 80vw;
+  height: auto;
+  background-color: lightgray;
+  display: inline-block;
+  padding: 40px 80px 10px 40px;
+}
+#rightside h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+#rightSide p {
+  display: inline-block;
+}
+
+#testTitle {
+  margin-top: 0px;
+  background-color: gray;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+#leftSide h2 {
+  color: azure;
+  margin-top: 350px;
+}
+#rightSide h2 {
+  margin-top: 60px;
+}
+#rightSide .rightHR {
+  border-top: 1px solid black;
+}
+body .scrl {
+  background-color: red;
+  position: sticky;
+  display: inline;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  background-color: gray;
+}
+#leftSide div {
+  height: 20vh;
+}
+
+#rightSide div {
+  height: 25vh;
+}
+@media (max-width: 700px) {
+}

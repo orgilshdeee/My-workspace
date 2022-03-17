@@ -1,0 +1,59 @@
+body {
+  background-image: linear-gradient(
+    135deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  font-family: "Courier New", Courier, monospace;
+  width: 200vw;
+}
+header {
+  margin-left: 750px;
+
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+  height: 30%;
+}
+.top1 {
+  height: 30%;
+}
+.title1 {
+  height: 30%;
+  font-size: 25px;
+  margin: 0px;
+  padding: 3px;
+}
+.duplicate {
+  border: solid 2px black;
+  margin: 10px 50px;
+  height: 30vh;
+  background-color: aqua;
+}
+
+img:hover {
+  transition: 0.2s;
+  transform: scale(1.5);
+  opacity: 0.6;
+}
+img {
+  background-color: aliceblue;
+  width: 200px;
+  height: 200px;
+  border: solid 3px black;
+  border-radius: 50%;
+  margin-left: 350px;
+}
+
+section {
+  display: flex;
+}
+
+section .duplicate {
+  width: 100vw;
+}
