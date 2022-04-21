@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript - Pet Directory</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="container">
+      <!--
+      <h2>Joey</h2>
+      <h3>Dog | Australian Shepherd</h3>
+      <p>Age: 8</p>
+      <img src="img/aussie.jpg" alt="Australian Shepherd">
+ -->
+
+      <section id="cardsMain" class="container">
+        <div id="onSale" class="">
+          <div class="row justify-content-between">
+            <h2>onSale</h2>
+            <button>arrow</button>
+          </div>
+          <div class="row" id="cardsOnSale"></div>
+        </div>
+        <div id="desert" class="">
+          <div class="row justify-content-between">
+            <h2>Deserts</h2>
+            <button>arrow</button>
+          </div>
+          <div class="row" id="cardsDesert"></div>
+        </div>
+        <div id="mainDish" class="">
+          <div class="row justify-content-between">
+            <h2>Main dish</h2>
+            <button>arrow</button>
+          </div>
+          <div class="row" id="cardsMainDish"></div>
+        </div>
+        <div id="sideDIsh" class="">
+          <div class="row justify-content-between">
+            <h2>Side dish</h2>
+            <button>arrow</button>
+          </div>
+          <div class="row" id="cardsSideDish"></div>
+        </div>
+      </section>
+    </main>
+    <script src="js/cards.js"></script>
+  </body>
+</html>

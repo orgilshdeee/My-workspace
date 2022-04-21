@@ -1,0 +1,22 @@
+body {
+  background-color: blueviolet;
+}
+table tr td {
+  border: 1px;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+
+table tr:nth-child(even) td {
+  background-color: black;
+}
+table tr:nth-child(even) td:nth-child(odd) {
+  background-color: white;
+}
+table tr:nth-child(odd) td {
+  background-color: black;
+}
+table tr:nth-child(odd) td:nth-child(even) {
+  background-color: white;
+}
