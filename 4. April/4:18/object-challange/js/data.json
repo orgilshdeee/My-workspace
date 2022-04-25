@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Зайрмаг",
+    "type": "desert",
+    "price": 4760,
+    "sale": 10,
+    "photo": "img/onSaleImg/icecream.png"
+  },
+  {
+    "name": "Панкейк",
+    "type": "desert",
+    "price": 4800,
+    "sale": 20,
+    "photo": "img/onSaleImg/pancake.png"
+  },
+  {
+    "name": "Панкейк",
+    "type": "desert",
+    "price": 4800,
+    "sale": 30,
+    "photo": "img/onSaleImg/pancake.png"
+  },
+  {
+    "name": "Панкейк",
+    "type": "desert",
+    "price": 4800,
+    "sale": 5,
+    "photo": "img/onSaleImg/pancake.png"
+  },
+  {
+    "name": "Салмон загас",
+    "type": "mainDish",
+    "price": 11800,
+    "sale": 50,
+    "photo": "img/mainDishImg/Salmon.png"
+  },
+  {
+    "name": "Бөөрөнхий мах",
+    "type": "mainDish",
+    "price": 11800,
+    "sale": 0,
+    "photo": "img/mainDishImg/meatball.png"
+  },
+  {
+    "name": "Бөөрөнхий мах",
+    "type": "mainDish",
+    "price": 11800,
+    "sale": 0,
+    "photo": "img/mainDishImg/meatball.png"
+  },
+  {
+    "name": "Бөөрөнхий мах",
+    "type": "mainDish",
+    "price": 11800,
+    "sale": 0,
+    "photo": "img/mainDishImg/meatball.png"
+  },
+  {
+    "name": "Детокс салад",
+    "type": "sideDish",
+    "price": 6800,
+    "sale": 0,
+    "photo": "img/sideDishImg/detoxSalad.png"
+  },
+  {
+    "name": "Кобб салад",
+    "type": "sideDish",
+    "price": 6800,
+    "sale": 0,
+    "photo": "img/sideDishImg/kobbSalad.png"
+  },
+  {
+    "name": "Кобб салад",
+    "type": "sideDish",
+    "price": 6800,
+    "sale": 0,
+    "photo": "img/sideDishImg/kobbSalad.png"
+  },
+  {
+    "name": "Кобб салад",
+    "type": "sideDish",
+    "price": 6800,
+    "sale": 0,
+    "photo": "img/sideDishImg/kobbSalad.png"
+  },
+  {
+    "name": "Өглөөний хоол",
+    "type": "onSale",
+    "price": 6800,
+    "sale": 0,
+    "photo": "img/onSaleImg/breakfast.png"
+  },
+  {
+    "name": "Банана сендвич",
+    "type": "onSale",
+    "price": 6800,
+    "sale": 0,
+    "photo": "img/onSaleImg/bananaSandwich.png"
+  },
+  {
+    "name": "Банана сендвич",
+    "type": "onSale",
+    "price": 6800,
+    "sale": 5,
+    "photo": "img/onSaleImg/bananaSandwich.png"
+  },
+  {
+    "name": "Банана сендвич",
+    "type": "onSale",
+    "price": 6800,
+    "sale": 0,
+    "photo": "img/onSaleImg/bananaSandwich.png"
+  }
+]
