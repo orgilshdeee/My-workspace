@@ -1,0 +1,72 @@
+[
+  {
+    "title": "American Psycho",
+    "imageURL": "https://m.media-amazon.com/images/I/71e1OUE057L._SY679_.jpg",
+    "body": "A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.",
+    "genre": "Crime",
+    "date": "2000/04/14"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+    "body": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
+    "genre": "Drama",
+    "date": "2000/10/27"
+  },
+  {
+    "title": "Good Will Hunting",
+    "imageURL": "https://www.ubuy.com/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvOTFpQ3NMdWZNZEwuX1NMMTUwMF8uanBn.jpg",
+    "body": "A touching tale of a wayward young man who struggles to find his identity, living in a world where he can solve any problem, except the one brewing deep within himself, until one day he meets his soul mate who opens his mind and his heart.",
+    "genre": "Drama",
+    "date": "1997/12/05"
+  },
+  {
+    "title": "Limitless",
+    "imageURL": "https://flxt.tmsimg.com/assets/p8193447_p_v8_au.jpg",
+    "body": "With the help of a mysterious pill that enables the user to access 100% of his brain's abilities, a struggling writer becomes a financial wizard, but it also puts him in a new world with many dangers.",
+    "genre": "Crime",
+    "date": "2011/03/08"
+  },
+  {
+    "title": "The Fighter",
+    "imageURL": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/b69bb2b1100f7651060c90c758ba2999860cc4306ef05936b2be40c7c7112df1._RI_V_TTW_.jpg",
+    "body": "Based on the story of Micky Ward, a fledgling boxer who tries to escape the shadow of his more famous but troubled older boxing brother and get his own shot at greatness.",
+    "genre": "Biography",
+    "date": "2010/12/06"
+  },
+  {
+    "title": "Les Miserable",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/en/b/b0/Les-miserables-movie-poster1.jpg",
+    "body": "In 19th-century France, Jean Valjean, who for decades has been hunted by the ruthless policeman Javert after breaking parole, agrees to care for a factory worker's daughter. The decision changes their lives forever.",
+    "genre": "Musical",
+    "date": "2012/12/05"
+  },
+  {
+    "title": "The Greatest Showman",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BMjI1NDYzNzY2Ml5BMl5BanBnXkFtZTgwODQwODczNTM@._V1_.jpg",
+    "body": "Celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.",
+    "genre": "Musical",
+    "date": "2017/12/20"
+  },
+  {
+    "title": "La La Land",
+    "imageURL": "https://www.goldenglobes.com/sites/default/files/articles/cover_images/2017-la_la_land.jpg?format=pjpg&auto=webp&optimize=high&width=850",
+    "body": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+    "genre": "Musical",
+    "date": "2016/12/09"
+  },
+  {
+    "title": "Bojack Horseman",
+    "imageURL": "https://engvideo.pro/media/filebrowser/video/series/bojack-horseman/thumb_1bnrSsJNejoQq8lGBDECQroGjPz.jpg",
+    "body": "A humanoid horse, BoJack Horseman -- lost in a sea of self-loathing and booze -- decides it's time for a comeback.",
+    "genre": "Biography",
+    "date": "2014/08/22"
+  },
+  {
+    "title": "Enemy at the Gates",
+    "imageURL": "https://play-lh.googleusercontent.com/bW-i__lrTnb0lZeh1LsiWpElIxnA3WTlzX2-bNQryj9GAJ-5b6pneuQmZNmfndzl7i7n",
+    "body": "A Russian and a German sniper play a game of cat-and-mouse during the Battle of Stalingrad.",
+    "genre": "Biography",
+    "date": "2001/03/14"
+  }
+]

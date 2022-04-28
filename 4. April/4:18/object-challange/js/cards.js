@@ -1,17 +1,29 @@
 const createFood = (arr, container) => {
   let html = document.querySelector(container);
-  for (i = 0; i < arr.length; i++) {
-    let food = `
+  arr.map((item) => {
+    if (item.sale > 0) {
+      let food = `
         <div class = "cardInfo col-3 p-3">
-          <img src="${arr[i].photo}" class="w-100">
-          <h3>${arr[i].name}</h3>
+          <img src="${item.photo}" class="w-100">
+          <h3>${item.name}</h3>
           <div class="d-flex justify-content-between">
-            <p>${arr[i].price}</p>
-            <p>saleprice</p>
+            <p>${item.price - (item.price * item.sale) / 100}₮</p>
+            <p>${item.sale}%</p>
           <div> 
         </div>`;
-    html.innerHTML += food;
-  }
+      html.innerHTML += food;
+    } else {
+      let food = `
+        <div class = "cardInfo col-3 p-3">
+          <img src="${item.photo}" class="w-100">
+          <h3>${item.name}</h3>
+          <div class="d-flex justify-content-between">
+            <p>${item.price}₮</p>
+          <div> 
+        </div>`;
+      html.innerHTML += food;
+    }
+  });
 };
 
 const xhrFood = new XMLHttpRequest();
