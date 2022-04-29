@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+#result {
+    border: 1px solid black;
+}

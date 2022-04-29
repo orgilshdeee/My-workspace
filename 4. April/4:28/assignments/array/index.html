@@ -23,15 +23,21 @@
       <h1>Movies</h1>
     </header>
     <div class="container">
-      <label for="genres">Select movie genre</label>
-      <select name="" id="genres">
-        <option value="all">All</option>
-        <option value="crime">Crime</option>
-        <option value="drama">Drama</option>
-        <option value="musical">Musical</option>
-        <option value="bio">Biography</option>
-      </select>
-
+      <div class="d-flex justify-content-between">
+        <div>
+          <label for="genres">Select movie genre</label>
+          <button id="all">All</button>
+          <button id="crime">Crime</button>
+          <button id="bio">Biography</button>
+          <button id="drama">Drama</button>
+          <button id="musical">Musical</button>
+        </div>
+        <div>
+          <button id="up">Sort by Date Up</button>
+          <button id="down">Sort by Date Down</button>
+        </div>
+      </div>
+    
       <div class="cards row"></div>
     </div>
   </body>

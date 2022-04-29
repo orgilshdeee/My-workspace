@@ -4,10 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assignments/calculator/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css" />
     <title>calculator</title>
   </head>
-  <body>
-    <script src="/assignments/calculator/java.js"></script>
+  <body class="container">
+    <main>
+      <div class="row">
+        <input type="number" id="input1" class="col-3" value="">
+        <input type="number" id="input2" class="col-3" value="">
+        <div class="col-3" id="result">result here</div>
+      </div>
+      <div class="row">
+        <button type="button" class="col-3" id="increment" onclick="increment()">increment</button>
+        <button type="button" class="col-3" id="decrement" onclick="decrement()">decrement</button>
+      </div>
+      <div class="row">
+        <button type="button" class="col-3" id="power" onclick="power()">power</button>
+        <button type="button" class="col-3" id="multiply" onclick="multiply()">multiply</button>
+      </div>
+      <div class="row">
+        <button type="button" class="col-3" id="divide" onclick="divide()">divide</button>
+        <button type="button" class="col-3" id="modul" onclick="modul()">modul</button>
+      </div>
+      <div class="row">
+        <button type="button" class="col-6" id="concat" onclick="concate()">concat</button>
+      </div>
+    </main>
   </body>
+  <script src="/java.js"></script>
 </html>
